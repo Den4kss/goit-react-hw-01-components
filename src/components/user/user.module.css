@@ -1,0 +1,28 @@
+.profile{
+    box-shadow: #000000 2px 2px 4px;
+    
+}
+.description{
+display: flex;
+flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.avatar{
+    width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+        background-color: green;
+}
+.stats{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: grey;
+}
+.rating{
+        display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-bottom: 20px;
+}

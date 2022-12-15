@@ -1,0 +1,18 @@
+.friendList {
+    margin-top: 50px;
+    list-style: none;
+}
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 200px;
+    background-color: rgb(141, 61, 61);
+  margin-bottom: 20px;
+}
+.status {
+    width: 15px;
+    height: 15px;
+    margin: 0 15px;
+    border-radius: 50%;
+}

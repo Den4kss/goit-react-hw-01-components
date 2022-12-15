@@ -1,0 +1,19 @@
+.transactionHistory{
+    margin: 50px;
+        width: 400px;
+        text-align: center;
+        box-shadow: #ff00007d 2px 2px 4px;
+}
+.cap{
+    color: white;
+        padding: 10px;
+        background-color: rgb(47, 170, 228);
+        border: 2px solid black;
+}
+.transaction{
+    color: rgb(12, 12, 12);
+        padding: 10px;
+        background-color: rgb(117, 123, 126);
+        border: 2px solid black;
+        
+}

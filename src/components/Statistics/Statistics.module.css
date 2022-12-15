@@ -1,0 +1,30 @@
+.statistics{
+    display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        margin-top: 50px;
+        background-color: grey;
+}
+.title{
+    color: red;
+}
+.statList{
+    display: flex;
+}
+.item{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.label{
+width: 90px;
+height: 50px;
+    text-align: center;
+    font-size: 2em;
+}
+.percentage{
+    width: 70px;
+        height: 50px;
+        text-align: center;
+}
