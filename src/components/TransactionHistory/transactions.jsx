@@ -10,7 +10,7 @@ export const Transactions = ({ items }) => {
     </tr>
   </thead>
 
-  <tbody>{items.map((item)=><tr className={css.transaction}>
+  <tbody>{items.map((item)=><tr className={css.transaction} key={item.id}>
       <td>{ item.type}</td>
       <td>{item.amount }</td>
       <td>{ item.currency}</td>
