@@ -5,6 +5,10 @@
         align-items: center;
         margin-top: 50px;
         background-color: grey;
+        margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            width: 50%;
 }
 .title{
     color: red;
