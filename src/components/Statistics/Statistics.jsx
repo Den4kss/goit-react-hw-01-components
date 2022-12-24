@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import css from './Statistics.module.css'
+import styles from './Statistics.module.css'
 
 function makeBgColor() {
   const color = (Math.random().toString(16) + "000000")
@@ -9,12 +9,12 @@ function makeBgColor() {
 }
 export const Statistics = ({ title, statistics }) => { 
     
-  return (<section className={ css.statistics}>
-        <h2 className={css.title}>{ title}</h2>
+  return (<section className={ styles.statistics}>
+    {title && <h2 className={styles.title}>{title}</h2>}
 
-    <ul className={ css.statList}>{statistics.map((statistic) => (<li className={ css.item} key={statistic.id}  style={{ backgroundColor: makeBgColor() }}>
-          <span className={css.label}>{ statistic.label}</span>
-      <span className={ css.percentage}>{ statistic.percentage}%</span>
+    <ul className={ styles.statList}>{statistics.map((statistic) => (<li className={ styles.item} key={statistic.id}  style={{ backgroundColor: makeBgColor() }}>
+          <span className={styles.label}>{ statistic.label}</span>
+      <span className={ styles.percentage}>{ statistic.percentage}%</span>
     </li>))}
   </ul>
 </section>)
